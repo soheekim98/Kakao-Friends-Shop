@@ -1,0 +1,49 @@
+@import url('https://webfontworld.github.io/score/SCoreDream.css');
+
+@mixin centerFlex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+@mixin spaceBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin centerPosition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+$color-inherit: inherit;
+$black-color:#222;
+$gray-color:#f8f8f8;
+$point-color:#371c1d;
+$main-color:#d65226;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SCoreDream';
+    color: #222;
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0 72px;
+}
+img,svg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
